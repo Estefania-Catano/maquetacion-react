@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f2;
+  color: #2d3a2f;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #2d3a2f;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+  max-width: 600px;
+}
+
+.hero h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #5a6b5f;
+}
+
+/* BOTÓN */
+.btn {
+  margin-top: 30px;
+  background-color: #2d3a2f;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 80px;
+}
+
+.filosofia {
+  padding: 100px 60px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.filosofia h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.filosofia p {
+  font-size: 18px;
+  color: #5a6b5f;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.active {
+  border-bottom: 2px solid #2d3a2f;
+}
+
+.galeria {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.galeria h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.galeria p {
+  color: #5a6b5f;
+  margin-bottom: 60px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+/* CARD */
+.card {
+  width: 260px;
+  height: 200px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d3a2f;
+  background-color: #f9f9f7;
+}
+.contacto {
+  padding: 100px 60px;
+  text-align: center;
+}
+
+.contacto h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  color: #5a6b5f;
+  margin-bottom: 40px;
+}
+
+/* CAJA DEL FORM */
+.form-box {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f7;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.form-box input,
+.form-box select,
+.form-box textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* TEXTAREA */
+.form-box textarea {
+  min-height: 100px;
+}
+
+/* BOTÓN */
+.form-box button {
+  margin-top: 10px;
+  background-color: #2d3a2f;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
