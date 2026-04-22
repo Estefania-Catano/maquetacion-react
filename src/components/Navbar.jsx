@@ -4,7 +4,9 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>ZENITH BONSAI</h1>
+      <NavLink to="/" className="logo">
+        ZENITH BONSAI
+      </NavLink>
       <ul>
 <NavLink to="/filosofia" className={({ isActive }) => isActive ? "active" : ""}>
   Filosofía
